@@ -1,0 +1,4 @@
+git clone <clone url> ->makes a copy of repository onto your computer
+git add -> adds files to repository
+git push ->sends everything in the staging area to your repository
+git commit -m <message> ->sends files to the staging area
