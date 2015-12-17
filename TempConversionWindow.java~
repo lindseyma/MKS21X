@@ -31,8 +31,9 @@ public class TempConversionWindow extends JFrame implements ActionListener{
     double origTemp = Double.parseDouble(j.getText());
     double newTemp;*/
 
-    public void actionPerformed(ActionEvent e){
-	double origTemp = Double.parseDouble(j.getText());
+    public void actionPerformed(ActionEvent e){ 
+        double origTemp = Double.parseDouble(j.getText());
+
 	double newTemp;
 	String s;
 	String event = e.getActionCommand();
