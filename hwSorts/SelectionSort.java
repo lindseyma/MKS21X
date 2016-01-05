@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Sorts{
+public class SelectionSort{
 
     //static int[] test=new int[]{3,2,4,5};
     
@@ -12,7 +12,7 @@ public class Sorts{
 	for(int i=0; i<size; i++){
 	    test[i]=num.nextInt(max);
 	}   
-	insertionSort(test);
+	//insertionSort(test);
 	selectionSort(test);
     }
 

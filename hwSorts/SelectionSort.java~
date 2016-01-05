@@ -12,11 +12,11 @@ public class Sorts{
 	for(int i=0; i<size; i++){
 	    test[i]=num.nextInt(max);
 	}   
-	insertionSort(test);
+	//insertionSort(test);
 	selectionSort(test);
     }
 
-    public static void insertionSort(int[] myData){
+    /*    public static void insertionSort(int[] myData){
 	int x; //x is current number
 	for(int i=1; i<myData.length; i++){
 	    //1 because start w/ 2nd #
@@ -30,7 +30,7 @@ public class Sorts{
 	for(int k=0; k<myData.length; k++){
 	    System.out.print(myData[k]);
 	}//for k
-    }
+	}*/
 	
     public static void selectionSort(int[] myData){
 	for (int i=0; i<myData.length; i++){
