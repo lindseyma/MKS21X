@@ -5,8 +5,8 @@ public class InsertionSort{
     //static int[] test=new int[]{3,2,4,5};                                     
 
     public static void main(String[]args){
-        int size=1000000;
-        int max = 10000;
+        int size=1000;
+        int max = 1000;
         int[] test = new int[size];
         Random num = new Random();
         for(int i=0; i<size; i++){

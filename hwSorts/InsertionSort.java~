@@ -1,4 +1,4 @@
-iort java.util.Random;
+import java.util.Random;
 
 public class InsertionSort{
 
@@ -12,7 +12,7 @@ public class InsertionSort{
         for(int i=0; i<size; i++){
             test[i]=num.nextInt(max);
         }
-	insertiontionSort(test);
+	insertionSort(test);
     }
 
     public static void insertionSort(int[] myData){

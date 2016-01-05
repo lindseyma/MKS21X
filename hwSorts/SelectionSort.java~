@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Sorts{
+public class SelectionSort{
 
     //static int[] test=new int[]{3,2,4,5};
     
