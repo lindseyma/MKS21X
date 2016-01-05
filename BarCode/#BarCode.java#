@@ -25,6 +25,7 @@ public class BarCode implements Comparable{
 	    String ans="";
 	    ans+=codes[Integer.parseInt(zip.Substring(i, i+1))];
 	}//for
+	ans+=codes[_zip.checkSum()];
 	return ans;
     }
 
@@ -58,7 +59,9 @@ public class BarCode implements Comparable{
     // true when they match.
 
 
-    public int compareTo(Comparable other){}
+    public int compareTo(Comparable other){
+	
+    }
     // postcondition: compares the zip + checkdigit 
-
+    
 }
