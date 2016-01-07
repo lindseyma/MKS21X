@@ -3,9 +3,24 @@ import java.util.Random;
 public class Sorts{
 
     //static int[] test=new int[]{3,2,4,5};
-    
+
+    public static void fillRandom(int[] ary){
+	    int max=10000;
+	    Random num = new Random();
+	    for(int i=0; i<ary.length; i++){
+		ary[i]=num.nextInt(max);
+	    }
+    }
+	    
+
+    public static void swap(int[] ary, int i, int j){
+	int temp=ary[i];
+	ary[i]=ary[j];
+	ary[j]=temp;
+    }
+
     public static void main(String[]args){
-	int size=5;
+	/*int size=5;
 	int max = 10;
 	int[] test = new int[size];
 	Random num = new Random();
@@ -13,7 +28,7 @@ public class Sorts{
 	    test[i]=num.nextInt(max);
 	}   
 	//insertionSort(test);
-	bubbleSort(test);
+	bubbleSort(test);*/
     }
 
         public static void insertionSort(int[] myData){
